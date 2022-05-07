@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"> 
+    <script src="script.js" defer></script>
+    <!-- Why Defer ? -->
+    <title>LunchList</title>
+</head>
+<body>
+    <!-- Header -->
+    <section>
+        <div class="header container">
+            <div class="logo">
+                <img src="images/fried-rice.png" alt="">
+                <h3>LunchList</h3>
+            </div>
+            <div class="navBar">
+                <ul>
+                    <li class="current-page"><h3>Home</h3></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <section>
+        <div class="search-wrapper container">
+            <h1>It's time to Eat !</h1>
+            <label for="search"></label>
+            <input type="search" id="search" placeholder="What do you fancy ?">
+        </div>
+    </section>
+
+    <!-- Recipe Grid and card template to build grid from using fetched JSON data -->
+    <section>
+        <div class="recipe-cards" data-recipe-card-container></div>
+        <template data-recipe-card-template>
+            <div class="recipe-card">
+                <div class="title" data-title></div>
+                <div class="description" data-description></div>
+            </div>
+        </template>
+    </section>
+</body>
+</html>

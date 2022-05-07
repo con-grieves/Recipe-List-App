@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Ubuntu;
+}
+
+/* Font Sizing & Coloring */
+:root {
+    --mainColorDark: #2A2A2B;
+    --secondaryColorDark: #c1c1c1;
+    --mainTextColorDark: #EEF2FF;
+    --secondaryTextColorDark: #F95959;
+    --mainTextHoverColor: #7f8183;
+}
+
+h1 { font-size: 56px; }
+h2 { font-size: 36px; }
+h3 { font-size: 28px; }
+h4 { font-size: 24px; }
+h5 { font-size: 18px; }
+h6 { font-size: 18px; }
+p {font-size: 24px;}
+
+/* site-wide */
+
+.container {
+    width: 750px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* Header & navbar styling */
+
+.header {
+    display: flex;
+    width: 1250px;
+    margin: 25px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    color: var(--mainTextColorDark);
+}
+
+.header div {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.navBar ul {
+   display: flex;
+   list-style: none;
+   gap: 50px;
+}
+
+.current-page {
+    color: var(--secondaryTextColorDark);
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+}
+
+/* Search Section */
+
+input {
+    width: 330px;
+    height: 50px;
+    font-size: 26px;
+    margin-top: 25px;
+}
+
+/* Recipe Card Grid */
+
+.recipe-cards {
+    display: flex;
+}
+
+.recipe-card {
+    border: 2px solid red;
+}
