@@ -19,7 +19,7 @@ h3 { font-size: 28px; }
 h4 { font-size: 24px; }
 h5 { font-size: 18px; }
 h6 { font-size: 18px; }
-p {font-size: 24px;}
+p {font-size: 14px;}
 
 /* site-wide */
 
@@ -81,4 +81,14 @@ input {
 
 .recipe-card {
     border: 2px solid red;
+}
+
+.hide {
+    display: none;
+}
+
+/* Recipe Info */
+
+.ingListItem {
+    margin: 25px auto;
 }

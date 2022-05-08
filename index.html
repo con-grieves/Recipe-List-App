@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"> 
     <script src="script.js" defer></script>
-    <!-- Why Defer ? -->
+    <!-- Defer makes it so the script tag is read after the body HTML which reduced bugs in this case -->
     <title>LunchList</title>
 </head>
 <body>
@@ -32,8 +32,7 @@
     <section>
         <div class="search-wrapper container">
             <h1>It's time to Eat !</h1>
-            <label for="search"></label>
-            <input type="search" id="search" placeholder="What do you fancy ?">
+            <input data-search-bar type="search" placeholder="Filter by title or tag">
         </div>
     </section>
 
@@ -43,9 +42,27 @@
         <template data-recipe-card-template>
             <div class="recipe-card">
                 <div class="title" data-title></div>
-                <div class="description" data-description></div>
+                <div class="tags" data-tags></div>
+                <div class="button" data-button></div>
             </div>
         </template>
+    </section>
+
+    <!-- Recipe Info -->
+    <section>
+        <div class="container">
+            <div class="title ingListItem" data-recipe-title></div>
+            <div class="description ingListItem" data-recipe-description></div>
+            <div class="ingredientList ingListItem" data-recipe-ingredients>
+            </div>
+            <div class="directions ingListItem" data-recipe-directions>
+            <div>
+            <div class="prep-time ingListItem" data-recipe-prep-time></div>
+            <div class="cook-time ingListItem" data-recipe-cook-time></div>
+            <div class="servings ingListItem" data-recipe-servings></div>
+            <div class="authorName ingListItem" data-recipe-author-name></div>
+            <div class="authorUrl ingListItem" data-recipe-author-url></div>
+        </div>
     </section>
 </body>
 </html>
