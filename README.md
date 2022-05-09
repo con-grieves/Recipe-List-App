@@ -1,5 +1,5 @@
 # Recipe-List-App
-A simple recipe list app built using Javascript incorporating a data set from JSON files
+A simple recipe list app built using Javascript incorporating a data set from JSON files. Built with forward planning / scale in mind.
 
 # Choice Rationale
 
