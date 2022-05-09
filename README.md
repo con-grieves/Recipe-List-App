@@ -1,7 +1,7 @@
 # Recipe-List-App
 A simple recipe list app built using Javascript incorporating a data set from JSON files. Built with forward planning / scale in mind.
 
-# Choice Rationale
+# Key Choices Made
 
 1. Inclusion of Search Function
 2. Fetching via API vs local
@@ -15,3 +15,4 @@ A simple recipe list app built using Javascript incorporating a data set from JS
 3. Having the default serving value for each recipe set upon pressing SELECT before user inputs any value
 4. Overall smoothing out of UX from filtering, serving selection and recipe selection
 5. Finding a way to append URL data for each recipe.JSON within the recipe index file automatically instead of manually, potentially somthing to consider if I was to model my own JSON data.
+6. Incorporate Unit testing Via JEST
