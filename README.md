@@ -11,7 +11,7 @@ A simple recipe list app built using Javascript incorporating a data set from JS
 # Improvments and Considerations
 
 1. Improving the search function to be more flexible
-2. Making the serving input asynchronous so that the card doesn't need to be pressed everytime the user changes the serving input value
+2. Making the serving input asynchronous so that the card SELECT button doesn't need to be pressed everytime the user changes the serving input value
 3. Having the default serving value for each recipe set before user inputs any value
 4. Overall smoothing out of UX from filtering, serving selection and recipe selection
 5. Finding a way to append URL data for each recipe.JSON within the recipe index file automatically instead of manually, potentially somthing to consider if I was to fetch my own JSON data or model my own JSON data.
