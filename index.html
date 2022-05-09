@@ -30,12 +30,12 @@
     <section>
         <div class="search-wrapper container">
             <h1>It's time to Eat !</h1>
-            <input type="text" placeholder="How many are you serving ?" data-serving-input>
             <input data-search-bar type="search" placeholder="Filter by title or tag">
+            <input type="text" placeholder="How many are you serving ?" data-serving-input>
         </div>
     </section>
 
-    <!-- Recipe Grid and card template to build grid from using fetched JSON data -->
+    <!-- Recipe Grid and card template to build grid from using fetched JSON data. template HTML is hidden by default and so will not show up in the browser or effect the DOM-->
     <section>
         <div class="recipe-cards" data-recipe-card-container></div>
         <template data-recipe-card-template>
@@ -49,8 +49,8 @@
 
     <!-- Recipe Info -->
     <section>
-        <div class="container">
-            <div class="title ingListItem" data-recipe-title></div>
+        <div class="recipeContainer container">
+            <div class="title ingListItem" data-recipe-title>1. Filter recipes by name or tag <br> 2. Choose a serving amount <br> 3. Select a recipe above to show more detail</div>
             <div class="description ingListItem" data-recipe-description></div>
             <div class="ingredientList ingListItem" data-recipe-ingredients></div>
             <div class="directions ingListItem" data-recipe-directions></div>

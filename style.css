@@ -19,7 +19,7 @@ h3 { font-size: 28px; }
 h4 { font-size: 24px; }
 h5 { font-size: 18px; }
 h6 { font-size: 18px; }
-p {font-size: 14px;}
+p {font-size: 20px;}
 
 /* site-wide */
 
@@ -61,7 +61,7 @@ p {font-size: 14px;}
 .current-page {
     color: var(--secondaryTextColorDark);
     text-decoration: underline;
-    text-decoration-thickness: 4px;
+    text-decoration-thickness: 3px;
 }
 
 /* Search Section */
@@ -80,7 +80,17 @@ input {
 }
 
 .recipe-card {
-    border: 2px solid red;
+    border: 2px solid rgb(91, 91, 91);
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.recipe-card > .title {
+    font-weight: bold;
+}
+
+.recipe-card > div {
+    margin: 10px auto;
 }
 
 .hide {
@@ -91,4 +101,9 @@ input {
 
 .ingListItem {
     margin: 25px auto;
+}
+
+.recipeContainer {
+    border: 2px solid rgb(198, 198, 198);
+    border-radius: 5px;
 }
