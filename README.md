@@ -5,7 +5,7 @@ A simple recipe list app built using Javascript incorporating a data set from JS
 
 1. Inclusion of Search Function
 2. Fetching via API vs local
-3. Manually parsing vs using eval() to convert to float
+3. Manually parsing vs using eval() to convert ingredient quantity to float
 4. Using a template to build Recipe cards vs hard-coding each card
 5. Dynamically appending paragraph elements for ingredients vs hard-coding paragraphs and appending ingredient data
 
